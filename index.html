@@ -21,65 +21,65 @@
 <body class="font-DMSans bg-[#f5f5f5] min-h-screen flex flex-col items-center justify-center">
   <!-- Bento Grid -->
   <main class="grid md:grid-cols-4 grid-cols-1 md:grid-rows-[repeat(10,_minmax(0,_1fr))] gap-8 md:h-[800px] md:max-w-[1100px] m-4">
-    <!-- Section 1 -->
-    <section class="md:col-span-1 md:row-span-5 flex flex-col justify-center items-center bg-Yellow100 p-8 rounded-xl">
-      <p class="text-Black text-4xl font-medium leading-none tracking-tighter">
+    <!-- Section 1 On Desktop And Section 7 On Mobile -->
+    <section class="md:col-span-1 md:row-span-5 flex flex-col justify-center md:items-center bg-Yellow100 p-8 rounded-xl md:order-1 order-7">
+      <p class="text-Black md:text-4xl text-3xl font-medium leading-none tracking-tighter">
         Create and schedule content <span class="text-Purple500">quicker.</span>
       </p>
-      <img src="assets/images/illustration-create-post.webp" alt="Create Post Illustration" class="my-4 w-[200px] h-[80px]">
+      <img src="assets/images/illustration-create-post.webp" alt="Create Post Illustration" class="my-4 max-w-[190px] max-h-[80px]">
     </section>
-    <!-- Section 2 -->
-    <section class="md:col-span-2 md:row-span-4 flex flex-col justify-center items-center bg-Purple500 text-White p-12 rounded-xl">
-      <h1 class="text-5xl text-center mb-4 font-medium">
+    <!-- Section 2 On Desktop And Section 1 On Mobile -->
+    <section class="md:col-span-2 md:row-span-4 flex flex-col justify-center items-center bg-Purple500 text-White p-12 rounded-xl md:order-2 order-1">
+      <h1 class="md:text-5xl text-3xl text-center mb-4 font-medium">
         Social Media <span class="text-Yellow500">10x</span> Faster with AI
       </h1>
       <img src="assets/images/illustration-five-stars.webp" alt="Five Stars Illustration" class="max-w-[200px] max-h-[45px]">
-      <p class="text-lg font-normal">
+      <p class="md:text-lg text-base font-normal">
         Over 4,000 5-star reviews
       </p>
     </section>
-    <!-- Section 3 -->
-    <section class="md:row-span-7 rounded-xl bg-Purple100 text-Black p-7 rounded-xl md:overflow-hidden">
-      <p class="text-2xl font-semibold my-4">
+    <!-- Section 3 On Desktop And Section 4 On Mobile -->
+    <section class="md:row-span-7 rounded-xl flex flex-col md:items-start items-center bg-Purple100 text-Black p-7 rounded-xl md:order-3 order-4 md:overflow-hidden">
+      <p class="md:text-2xl text-xl font-semibold my-3 md:text-start text-center">
         Schedule to social media.
       </p>
-      <img src="assets/images/illustration-schedule-posts.webp" alt="Schedule Posts Illustration" class="max-w-[325px]">
-      <p class="font-medium my-4">
+      <img src="assets/images/illustration-schedule-posts.webp" alt="Schedule Posts Illustration" class="lg:max-w-[325px] max-w-[250px]">
+      <p class="font-medium my-2 md:text-start text-center">
         Optimize post timings to publish content at the perfect time for your audience.
       </p>
     </section>
-    <!-- Section 4 -->
-    <section class="md:row-span-3 bg-White p-7 rounded-xl md:overflow-hidden">
+    <!-- Section 4 On Desktop And Section 2 On Mobile -->
+    <section class="md:row-span-3 bg-White p-7 rounded-xl md:order-4 order-2 md:overflow-hidden">
       <img src="assets/images/illustration-multiple-platforms.webp" alt="Multiple Platforms Illustration" class="max-w-[220px]">
-      <p class="text-Black text-3xl font-medium leading-none my-1">
+      <p class="text-Black md:text-3xl text-2xl font-medium leading-none my-1">
         Manage multiple accounts and platforms.
       </p>
     </section>
-    <!-- Section 5 -->
-    <section class="md:row-span-3 bg-Yellow500 rounded-xl p-7 md:overflow-hidden">
+    <!-- Section 5 On Desktop And Section 3 On Mobile -->
+    <section class="md:row-span-3 bg-Yellow500 rounded-xl md:order-5 order-3 md:p-7 px-7 pt-7 md:overflow-hidden">
       <p class="text-Black text-2xl font-semibold leading-none mb-4">
         Maintain a consistent posting schedule.
       </p>
-      <img src="assets/images/illustration-consistent-schedule.webp" alt="Consistent Schedule Illustration">
+      <img src="assets/images/illustration-consistent-schedule.webp" alt="Consistent Schedule Illustration" class="md:w-full w-[200px]">
     </section>
-    <!-- Section 6 -->
-    <section class="md:row-span-5 bg-Yellow500 rounded-xl p-6">
-      <p class="text-Black text-4xl font-medium mb-4">
+    <!-- Section 6 On Desktop And Section 8 On Mobile -->
+    <section class="md:row-span-5 bg-Yellow500 rounded-xl md:order-6 order-8 p-6">
+      <p class="text-Black md:text-4xl text-3xl font-medium mb-4">
         Write your content using AI.
       </p>
-      <img src="assets/images/illustration-ai-content.webp" alt="AI Content Illustration">
+      <img src="assets/images/illustration-ai-content.webp" alt="AI Content Illustration" class="md:w-full w-[220px]">
     </section>
-    <!-- Section 7 -->
-    <section class="md:row-span-3 bg-White rounded-xl p-7">
+    <!-- Section 7 On Desktop and Section 6 On Mobile -->
+    <section class="md:row-span-3 bg-White rounded-xl md:order-7 order-6 p-7">
       <p class="text-Black mb-2">
         <span class="text-6xl font-semibold">>56%</span> <br> faster audience growth
       </p>
-      <img src="assets/images/illustration-audience-growth.webp" alt="Audience Growth Illustration">
+      <img src="assets/images/illustration-audience-growth.webp" alt="Audience Growth Illustration" class="md:w-full w-[150px]">
     </section>
-    <!-- Section 8 -->
-    <section class="md:col-span-2 md:row-span-3 flex md:flex-row flex-col justify-center items-center bg-Purple500 p-7 rounded-xl">
-      <img src="assets/images/illustration-grow-followers.webp" alt="Grow Followers Illustration" class="max-w-[200px] md:mr-4">
-      <p class="text-White text-4xl font-medium md:text-start text-center">
+    <!-- Section 8 On Desktop And Section 5 On Mobile -->
+    <section class="md:col-span-2 md:row-span-3 flex md:flex-row flex-col justify-center items-center bg-Purple500 p-7 rounded-xl md:order-8 order-5">
+      <img src="assets/images/illustration-grow-followers.webp" alt="Grow Followers Illustration" class="max-w-[200px] md:mr-4 mb-4">
+      <p class="text-White lg:text-4xl md:text-2xl text-3xl font-medium md:text-start text-center md:p-0 p-3">
         Grow followers with non-stop content.
       </p>
     </section>
